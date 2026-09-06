@@ -7,9 +7,7 @@ int main(){
         char tier;     // S,A,B,C,D
     }pikachu, charizard, mewtow;
   
-    // pikachu.attack = 1000;
-    printf("Enter the pikachu attack : ");
-    scanf("%d", &pikachu.attack);
+    pikachu.attack = 1000;
     pikachu.hp = 100;
     pikachu.speed = 50;
     pikachu.tier = 's';
@@ -31,4 +29,5 @@ int main(){
     printf(" Attack - %d\n HP - %d\n Speed - %d\n Tier - %c\n",mewtow.attack, mewtow.hp,mewtow.speed,mewtow.tier);
 
     return 0;
+
 }
